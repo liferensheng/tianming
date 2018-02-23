@@ -1,0 +1,61 @@
+.background{
+  width: 100%;
+  height: 100%;
+  background: #F4F4F4;
+  .contain{
+    .will {
+      padding-top: 0.88rem;
+      background: #fff;
+      .list {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.28rem;
+        color:#332B2B;
+        padding:0.34rem;
+        line-height: 0.56rem;
+        .pay {
+          flex-grow: 1;
+        }
+        input{
+          width: 0.36rem;
+          height:0.36rem;
+          margin-top: 0.1rem;
+        }
+      }
+    }
+    .suggestion{
+      margin:0.42rem 0.3rem;
+      position: relative;
+      textarea{
+        width: 6.9rem;
+        height:5.84rem;
+        border: 1px solid #E8E1E1;
+        border-radius: 4px;
+        padding: 2%;
+        font-size: 16px;
+        resize: none;
+        box-shadow: none;
+        -webkit-appearance: none;
+      }
+      .left-word{
+        position: absolute;
+        right: 0.3rem;
+        bottom: 0.4rem;
+        color: #acacac;
+        font-size: 14px;
+      }
+    }
+  }
+  .button{
+    width:100%;
+    height:1.2rem;
+    background: #2D2D2D;
+    font-size: 0.34rem;
+    color:#fff;
+    text-align: center;
+    line-height: 1.2rem;
+    position: fixed;
+    left:0;
+    bottom: 0;
+  }
+}

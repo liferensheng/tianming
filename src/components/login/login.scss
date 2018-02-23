@@ -1,0 +1,88 @@
+header{
+  width:100%;
+  height:0.88rem;
+  background: #141417;
+  .title{
+    font-size: 0.34rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.88rem;
+    font-weight: 400;
+  }
+}
+.logo{
+  width:100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight:900;
+  margin:1.1rem 0 0 0;
+}
+.el-form-item{
+  width:5.4rem;
+  margin:0.7rem auto 0;
+  border-bottom: 1px solid #E2E2E2;
+    input{
+      border:none!important;
+    }
+}
+.demo-ruleForm{
+  width:100%;
+  height:auto;
+  padding:0 1.04rem;
+
+  .el-form-item{
+    width:100%;
+    border-bottom:1px solid #E2E2E2;
+    .el-form-item__label:last-child{
+      letter-spacing: 2px;
+    }
+    input{
+      border:none;
+    }
+  }
+  .Update_password{
+    font-size: 0.28rem;
+    color:#795C43;
+    line-height: 0.4rem;
+    margin-top: 0.14rem;
+    text-align: right;
+  }
+}
+.Update_password{
+  font-size: 0.28rem;
+  color:#795C43;
+  line-height: 0.4rem;
+  margin: 0.14rem 1.08rem;
+  text-align: right;
+}
+.form{
+  width:100%;
+  padding:0 1.04rem;
+}
+.foot{
+  width:100%;
+  height:1.06rem;
+  display: flex;
+  font-size: 0.32rem;
+  position: fixed;
+  left:0;
+  bottom:0;
+  .login{
+    width:50%;
+    height:100%;
+    box-sizing: border-box;
+    border:1px solid #282828;
+    color: #2D2D2D;
+    background: #fff;
+    text-align: center;
+    line-height: 1.06rem;
+  }
+  .register{
+    width:50%;
+    height:100%;
+    color:#fff;
+    background: #2D2D2D;
+    text-align: center;
+    line-height: 1.06rem;
+  }
+}

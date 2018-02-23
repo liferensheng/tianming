@@ -1,0 +1,60 @@
+.background{
+  width:100%;
+  min-height:100%;
+  background: #fff;
+  padding-top:0.88rem;
+  .card{
+    width:100%;
+    height:auto;
+    padding:0.5rem 0.3rem 0;
+    .card_list{
+      width:100%;
+      height:2.62rem;
+      background: url("../../../assets/img/image_yhq_kqzx.png") center center no-repeat;
+      margin-bottom: 0.3rem;
+      position: relative;
+      .title{
+        font-size: 0.34rem;
+        color: #fff;
+        position: absolute;
+        top:0.56rem;
+        left:0.7rem;
+        letter-spacing: 2px;
+      }
+      .card_bottom{
+        position: absolute;
+        left:0.7rem;
+        bottom:0.5rem;
+        display: flex;
+        .price_pic{
+          width:0.34rem;
+          height:0.32rem;
+          display: flex;
+          margin: 0.28rem 0 0;
+        }
+        .price{
+          font-size: 0.56rem;
+          color: #C1A288;
+          font-family: "Apple";
+          font-weight: 400;
+        }
+        .rule{
+          font-size: 0.24rem;
+          color:#BBBBBB;
+          margin: 0.32rem 0.1rem 0;
+        }
+      }
+      .receive{
+        width:1.8rem;
+        height:2rem;
+        position: absolute;
+        top:0.2rem;
+        right:0.25rem;
+        font-size: 0.5rem;
+        color: #C1A288;
+        line-height: 2rem;
+        text-align: center;
+      }
+    }
+  }
+}

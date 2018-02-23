@@ -1,0 +1,28 @@
+.background{
+  width:100%;
+  height:100%;
+  background: #F6F6F6;
+  padding-top:0.88rem;
+  .news{
+    width:100%;
+    height:auto;
+    padding:0.4rem 0.3rem;
+    .title{
+      font-size:0.34rem;
+      color:#2D2D2D;
+    }
+    .time{
+      font-size:0.24rem;
+      color:#999;
+      margin-top: 0.2rem;
+    }
+    .content{
+      font-size:0.28rem;
+      color:#666;
+      text-indent:30px;
+      letter-spacing:1px;
+      line-height: 0.4rem;
+      margin-top: 0.3rem;
+    }
+  }
+}

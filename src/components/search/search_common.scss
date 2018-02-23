@@ -1,0 +1,71 @@
+.change{
+  width:100%;
+  height:0.76rem;
+  background: #1C1C1E;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top:0.88rem;
+  left:0;
+  z-index: 100;
+
+  li{
+    font-size: 0.24rem;
+    color:#FFF;
+    line-height: 0.76rem;
+    font-weight: 300;
+    display: flex;
+
+    .iconfont{
+      color:#fff;
+      font-size: 0.18rem;
+      margin-left:0.12rem;
+    }
+  }
+}
+.main-body{
+  .item_box{
+    width:100%;
+    height:12.46rem;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+    padding-right: 0px; /* 滚动条的宽度 */
+    border: 1px solid #ddd;
+    .list{
+      width:50%;
+      height:3.96rem;
+      padding-bottom: 0.1rem;
+      border-bottom: 1px solid #e5e5e5;
+      .imgbox{
+        width:100%;
+        height:2.4rem;
+      }
+
+      .l_name{
+        height:0.64rem;
+        font-size: 0.24rem;
+        font-weight: 400;
+        text-align: center;
+        color:#333333;
+        margin-top: 0.2rem;
+        padding:0 0.6rem;
+      }
+      .price{
+        font-size: 0.28rem;
+        text-align: center;
+        line-height: 0.6rem;
+        color:#795C43;
+        display: flex;
+        justify-content: center;
+        span{
+          color:#795C43;
+        }
+      }
+    }
+    .list:nth-child(2n){
+      border-left:1px solid #e5e5e5;
+    }
+  }
+}

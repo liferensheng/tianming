@@ -1,0 +1,130 @@
+.box{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+  .content{
+    margin-top:0.88rem;
+    background: #F4F4F4;
+    height:11.48rem;
+    overflow-y:auto;
+    ::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+      background-color: rgba(0,0,0,0);
+    }
+
+    .head{
+      width:100%;
+      height:2.68rem;
+      display: flex;
+      background: url('../../assets/img/image_bg copy.png');
+      padding:0.58rem 0.3rem;
+      .user_pic{
+        width:0.98rem;
+        height:0.98rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 0.4rem;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      .user_num{
+        font-size:0.34rem;
+        color:#fff;
+        line-height: 0.98rem;
+      }
+    }
+    .order_info{
+      background: #fff;
+      padding:0.24rem 0.3rem;
+      margin-bottom: 0.2rem;
+      .order{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.28rem;
+        padding:0 0 0.26rem;
+        border-bottom: 1px solid #E1E1E1;
+        .my_order{
+          color:#333;
+
+        }
+        .all_order{
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.28rem;
+          color:#666;
+          .iconfont{
+            width:0.24rem;
+            height:0.4rem;
+            font-size: 0.4rem;
+            color:#999;
+            margin-left: 0.2rem;
+          }
+        }
+      }
+      .module{
+        display: flex;
+        justify-content: space-between;
+        padding:0.24rem 0 0 0;
+        .items{
+          .iconfont{
+            font-size: 0.66rem;
+            text-align: center;
+            line-height: 0.72rem;
+            font-weight: 500;
+          }
+          .module_name{
+            font-size: 0.24rem;
+            color:#141417;
+          }
+        }
+        .items:last-child{
+          .iconfont{
+            font-size: 0.58rem;
+
+          }
+        }
+      }
+    }
+    .my{
+      margin-top: 0.2rem;
+      background: #fff;
+      padding:0 0.28rem;
+      .my_main{
+        .item{
+          display: flex;
+          justify-content: space-between;
+          padding:0.24rem 0;
+          position: relative;
+          .imgBox{
+            width:0.6rem;
+            height:0.6rem;
+          }
+          .text{
+            font-size: 0.28rem;
+            color:#414453;
+            flex-grow: 1;
+            line-height: 0.6rem;
+            margin-left: 0.62rem;
+            letter-spacing:2px;
+          }
+          .go_to{
+            font-size: 0.6rem;
+          }
+        }
+        .item:before{
+          content:"";
+          width:7.2rem;
+          height:0.04rem;
+          position: absolute;
+          left:0;
+          bottom: 0;
+          background: #F6F6F6;
+        }
+      }
+    }
+  }
+}
+

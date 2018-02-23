@@ -1,0 +1,99 @@
+.background{
+  width:100%;
+  min-height: 100%;
+  background: #F4F4F4;
+  .address{
+    padding-top:0.88rem;
+    .address_box{
+      .items{
+        width:100%;
+        height:2.78rem;
+        padding:0.36rem 0.3rem;
+        box-sizing: border-box;
+        background: #fff;
+        .items_top{
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.24rem;
+          color:#999999;
+          padding:0.1rem 0 0.36rem;
+          border-bottom:1px solid #F6F6F6;
+          #add{
+            line-height: 0.84rem;
+            text-align: center;
+            font-size: .48rem;
+            margin:0 0.06rem
+          }
+          .user_info{
+            flex-grow: 1;
+            padding:0 0.3rem 0 0.4rem;
+            box-sizing: border-box;
+            .user_info_top{
+              display: flex;
+              justify-content: space-between;
+              .phone{
+                color:#999999;
+              }
+            }
+            .user_info_address{
+              width:100%;
+              letter-spacing: 2px;
+              line-height: 0.4rem;
+              margin-top: 0.12rem;
+              color:#999999;
+              overflow: hidden;
+              text-overflow:ellipsis;
+              white-space: nowrap;
+            }
+          }
+          #go{
+            //width:0.3rem;
+            font-size: 0.6rem;
+            line-height: 0.84rem;
+            text-align: left;
+          }
+        }
+        .items_bottom{
+          height:1.06rem;
+          display: flex;
+          justify-content: space-between;
+          font-size: 0.28rem;
+          color:#332B2B;
+          line-height: 1.06rem;
+          .item_bottom_left{
+            display: flex;
+            justify-content: space-between;
+            .acquiescence{
+              margin-left: 0.3rem;
+            }
+          }
+          .item_bottom_right{
+            display: flex;
+            justify-content: space-between;
+            li{
+              display: flex;
+              justify-content: space-between;
+              margin-left:0.4rem;
+              i{
+                margin-right:0.16rem;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+  .add{
+    width:100%;
+    height:1.18rem;
+    background:#2D2D2D;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    text-align: center;
+    line-height: 1.18rem;
+    font-size: 0.34rem;
+    color:#fff;
+  }
+}
